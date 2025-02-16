@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_dashboard"
+            android:title="Dashboard"
+            android:icon="@drawable/baseline_home_24"/>
+        <item
+            android:id="@+id/nav_history"
+            android:title="Result"
+            android:icon="@drawable/baseline_history_24"/>
+        <item
+            android:id="@+id/nav_signal_datails"
+            android:title="Signal Details"
+            android:icon="@drawable/baseline_signal_wifi_4_bar_24"/>
+
+        <item
+            android:id="@+id/nav_subscription"
+            android:title="Subscription"
+            android:icon="@drawable/baseline_subscriptions_24"/>
+    </group>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:title="Profile"
+                android:icon="@drawable/baseline_person_24"/>
+        </menu>
+    </item>
+
+
+    <item android:title="Contact Info">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_call"
+                    android:title="+2348136096954"
+                    android:icon="@drawable/baseline_phone_24"/>
+                <item
+                    android:id="@+id/nav_website"
+                    android:title="www.bluepipsacademy.com"
+                    android:icon="@drawable/baseline_web_24"/>
+                <item
+                    android:id="@+id/nav_email"
+                    android:title="thebluepipsacademy@gmail.com"
+                    android:icon="@drawable/baseline_email_24">
+                </item>
+            </group>
+        </menu>
+    </item>
+    <item android:title="Communication">
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/nav_rate"
+                    android:title="Rate Us"
+                    android:icon="@drawable/baseline_star_rate_24"/>
+                <item
+                    android:id="@+id/nav_share"
+                    android:title="Share"
+                    android:icon="@drawable/baseline_share_24"/>
+
+            </group>
+        </menu>
+    </item>
+</menu>

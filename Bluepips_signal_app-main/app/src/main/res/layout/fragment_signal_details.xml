@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Asset Name -->
+        <TextView
+            android:id="@+id/asset_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset Name: Forex (GBPUSD)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Signal Type -->
+        <TextView
+            android:id="@+id/signal_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal Type: Buy"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Entry Price -->
+        <TextView
+            android:id="@+id/entry_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Entry Price: $0.00"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Stop Loss -->
+        <TextView
+            android:id="@+id/stop_loss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop Loss: $0.00"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Take Profit -->
+        <TextView
+            android:id="@+id/take_profit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Take Profit: $0.00"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Signal Timestamp -->
+        <TextView
+            android:id="@+id/signal_timestamp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timestamp: 01/01/2025 12:00 PM"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/favorite_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Favorite"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/share_signal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="Share" />
+        </LinearLayout>
+
+        <!-- Asset Name -->
+        <TextView
+            android:id="@+id/asset_name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset Name: Synthetics (VIX 25)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Signal Type -->
+        <TextView
+            android:id="@+id/signal_type2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal Type: Nil"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+
+
+        <!-- Signal Timestamp -->
+        <TextView
+            android:id="@+id/signal_timestamp2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timestamp: 01/01/2025 12:00 PM"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/favorite_signal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subscribe to view details"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:textSize="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/share_signal2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="Share" />
+        </LinearLayout>
+
+        <!-- Asset Name -->
+        <TextView
+            android:id="@+id/asset_name3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset Name: Synthetics (Step Index)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Signal Type -->
+        <TextView
+            android:id="@+id/signal_type3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal Type: Nil"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+
+
+        <!-- Signal Timestamp -->
+        <TextView
+            android:id="@+id/signal_timestamp3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timestamp: 01/01/2025 12:00 PM"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/favorite_signal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subscribe to view details"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:textSize="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/share_signal3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="Share" />
+        </LinearLayout>
+
+        <!-- Asset Name -->
+        <TextView
+            android:id="@+id/asset_name4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Asset Name: Synthetics (Step Index)"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Signal Type -->
+        <TextView
+            android:id="@+id/signal_type4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signal Type: Nil"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+
+
+        <!-- Signal Timestamp -->
+        <TextView
+            android:id="@+id/signal_timestamp4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Timestamp: 01/01/2025 12:00 PM"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Action Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/favorite_signal4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Subscribe to view details"
+                android:backgroundTint="@color/design_default_color_primary"
+                android:textSize="12dp"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:fontFamily="@font/amarante"
+                android:id="@+id/share_signal4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:backgroundTint="@color/design_default_color_secondary"
+                android:text="Share" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

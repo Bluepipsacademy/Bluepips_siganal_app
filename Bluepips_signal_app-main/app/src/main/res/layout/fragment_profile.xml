@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Profile Picture and Name -->
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/baseline_person_24"
+        android:contentDescription="Profile Picture"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:fontFamily="@font/amarante"
+        android:id="@+id/profile_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="User Name"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Notification Preferences -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Notification Preferences"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <Switch
+        android:id="@+id/crypto_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crypto Signals Notifications" />
+
+    <Switch
+        android:id="@+id/synthetic_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Synthetic Signals Notifications"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Logout Button -->
+    <Button
+        android:fontFamily="@font/amarante"
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/design_default_color_primary"
+        android:textColor="@android:color/white" />
+</LinearLayout>
